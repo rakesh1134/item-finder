@@ -8,7 +8,7 @@ module.exports = {
     '**/*.(test|spec).(ts|tsx|js|jsx)',
   ],
   transformIgnorePatterns: [
-    'node_modules/(?!(jest-)?react-native|@react-native|@react-native-community|@react-navigation|expo(nent)?|@expo(nent)?/.*|uuid|zustand|fuse\\.js)',
+    'node_modules/(?!(jest-)?react-native|@react-native|@react-native-community|@react-navigation|expo(nent)?|@expo(nent)?/.*|zustand|fuse\\.js)',
   ],
   collectCoverageFrom: [
     'src/**/*.{ts,tsx}',

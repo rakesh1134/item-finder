@@ -1,5 +1,31 @@
 {
   "expo": {
+    "name": "Item Finder",
+    "slug": "njit",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "sdkVersion": "53.0.0",
+    "platforms": [
+      "android"
+    ],
+    "android": {
+      "package": "com.rakesh1134.njit",
+      "adaptiveIcon": {
+        "backgroundColor": "#FFFFFF"
+      },
+      "permissions": [
+        "CAMERA"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Item Finder to access your camera to take photos of items."
+        }
+      ],
+      "expo-asset"
+    ],
     "extra": {
       "eas": {
         "projectId": "9a9568ae-dc57-4157-a38f-ccab5d62528b"
